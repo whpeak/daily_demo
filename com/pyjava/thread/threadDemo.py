@@ -7,6 +7,7 @@ Created on 2016年9月27日
 '''
 import thread
 from time import sleep,ctime
+#thread 模块，仅仅是为了学习，不推荐使用该模块
 loops = [2,4] #每一个线程的睡眠时间
 def loop (nloop,nesc,lock):
     print "start loop",nloop,"at:",ctime()
